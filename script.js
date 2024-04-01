@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 async function getWeather(locationType, locationValue) {
-    const apiKey = '299030b779110322f604c67dfe0d16b8';
+    const apiKey = 'ENTER YOU API KEY';
     let url = 'https://api.openweathermap.org/data/2.5/forecast?';
     if (locationType === 'city') {
         url += `q=${locationValue}`;
