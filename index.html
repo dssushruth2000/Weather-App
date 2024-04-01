@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Weather Forecast</h1>
+    <form id="locationForm">
+        <input type="radio" id="city" name="locationType" value="city" checked>
+        <label for="city">City Name</label><br>
+        <input type="radio" id="zip" name="locationType" value="zip">
+        <label for="zip">ZIP Code</label><br>
+        <input type="radio" id="coords" name="locationType" value="coords">
+        <label for="coords">Coordinates (latitude,longitude)</label><br>
+        <input type="text" id="locationInput" placeholder="Enter location">
+        <button type="submit">Get Forecast</button>
+    </form>
+    <div id="forecastResult"></div>
+</body>
+</html>
