@@ -2,6 +2,10 @@
 ### Description
 The Weather Forecast App is a simple, user-friendly web application that allows users to obtain weather forecasts based on their chosen location. Users can search for weather information using city names, ZIP codes, or geographical coordinates (latitude and longitude). This project utilizes the OpenWeatherMap API to fetch forecast data and display it on the web page.
 
+<p align="center">
+  <img src="weatherapp.png" alt="Weather App Screenshot">
+</p>
+
 ### Features
 Search for weather forecasts by city name, ZIP code, or coordinates.
 Displays weather forecasts including maximum temperature, average cloud cover, and average atmospheric pressure for the next three days.
