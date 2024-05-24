@@ -33,4 +33,4 @@ To run the Weather Forecast App, simply open the index.html file in your web bro
     * Select "Open with Live Server".
 
 ### Contributing
-Contributions to the Elixir project are welcome. Please feel free to fork the repository and submit pull requests.
+Contributions to this project are welcome. Please feel free to fork the repository and submit pull requests.
